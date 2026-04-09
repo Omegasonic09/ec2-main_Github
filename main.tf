@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket = "adminbukgithub"
     key    = "ec2/terraform.tfstate"
-    region = "ap-south-1"
+    region = "eu-north-1"
   }
 }
 
